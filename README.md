@@ -6,7 +6,7 @@ Baseia-se em um sistema web voltado para o aluguel de barcos. O objetivo do proj
 
 🖥️ Informações sobre o código:
 
-Lingugagem de marcação HTML e estilo CSS;
+Linguagem de marcação HTML e estilo CSS;
 
 Hospedagem de sites através do InfinityFree;
 
@@ -15,6 +15,5 @@ Armazenamento de dados através do phpMyadmin;
 Formulários, Tabelas, Links, Imagens;
 
 Envio de dados dos formulários utilizando PHP básico:
-
 Sequência de consultas, cookies, sessões
 Banco de dados e MySQL
