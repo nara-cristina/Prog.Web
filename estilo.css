@@ -1,0 +1,13 @@
+.autor {
+    border-radius: 5px;
+    background-color: cadetblue;
+    background-position: center;
+}
+
+.corpo {
+    border-radius: 5px;
+    border-color: black;
+    background-color: rgb(237, 245, 245);
+    margin: auto;
+    text-align: center;
+}

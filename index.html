@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>Reservas</title>
+    <link type="text/css" rel="stylesheet" href="estilo.css">
+    <meta charset="utf-8"/> 
+</head>
+<body bgcolor="#ADD8E6">
+
+  <div class="corpo">
+    <h1 style="color:black; background-color: cyan; text-align:center; ">VELEJANDO PELO SOL</h1>
+    <h2 style="color:black; background-color: orange; text-align:center; ">Reservas de Barcos </h2>
+    
+    <h5 style="color: black;"> Enquanto faz sua reserva, ouça uma música.</h5>
+    <audio src="sol.mp3" autoplay>
+      Seu browser não tem suporte a tag audio. Tente em outro navegador.
+    </audio>
+
+    <img src="barco.jpg" width="400">
+
+    <form action="inserir_alugueis.php" method="GET"><br>
+      <label>Nome:</label>
+      <input type="text" name="nome" placeholder="Digite seu nome" required><br><br>
+      <label>Contato:</label>
+      <input type="text" name="telefone" placeholder="Telefone" required><br><br>
+    
+      <label>Agende um horário:</label>
+      
+      <select name="dia" >
+        <option value="sex">Sexta-Feira</option>
+        <option value="sab">Sábado</option>
+        <option value="dom">Domingo</option>
+      </select> 
+
+      <select name="horario" >
+          <option value="10:00">10:00 </option>
+          <option value="12:00">12:00 </option>
+          <option value="15:00">15:00 </option>
+          <option value="16:00">16:00 </option>
+      </select> <br> <br>
+      <input type="submit" value="Reservar" name="submit"><br>
+    </form>
+
+    <a href = "consultar_alugueis.php"><button>RESERVAS DE BARCOS</button></a><br><br><br>
+
+    <label>Link para baixar os Códigos:</label>
+    <a href="/projeto_final/projeto_final.zip" download="projeto_filan_final">Download dos Códigos</a>
+  <div class="autor">
+    <h3 style="color:black;">Proprietários: Nara Cristina Pereira Moura<br> João Guilherme Araújo de Sousa Cunha <br> Paula Stephanir Caneiro Barreto</h3>
+  </div><br><br>
+</div>
+</body>
+</html>
